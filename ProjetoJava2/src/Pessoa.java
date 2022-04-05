@@ -1,4 +1,6 @@
 
+import java.util.Date;
+
 public class Pessoa {
 	
 	private String nome;
@@ -6,6 +8,16 @@ public class Pessoa {
 	private String Sobrenome;
 	
 	private int idade;
+	
+	private Date dataNascimento;	
+
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
 
 	public int getIdade() {
 		return idade;
